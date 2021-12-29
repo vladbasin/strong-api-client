@@ -3,9 +3,9 @@
  */
 
 export * from './chooseResponseErrorHandler';
-export * from './fetchPayloadRequestAsync';
-export * from './fetchPayloadRequestWithBodyAsync';
+export * from './fetchAsync';
 export * from './fetchRawApiRequestAsync';
+export * from './fetchWithBodyAsync';
 export * from './handleResponseError';
 export * from './prepareFetch';
 export * from './reduceRecord';

@@ -4,7 +4,7 @@ import { mapPayloadToRawApiRequest } from '@vladbasin/strong-api-mapping';
 import { chooseResponseErrorHandler, fetchRawApiRequestAsync } from '.';
 import { FetchPayloadRequestOptionsType, FetchRawApiRequestOptionsType, FetchResponseType } from './types';
 
-export const fetchPayloadRequestAsync = (options: FetchPayloadRequestOptionsType): Result<FetchResponseType> => {
+export const fetchAsync = (options: FetchPayloadRequestOptionsType): Result<FetchResponseType> => {
     const rawOptions: FetchRawApiRequestOptionsType = {
         url: options.request.url,
         method: options.request.method,

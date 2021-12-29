@@ -6,7 +6,7 @@ import { mapPayloadToRawApiRequest, mapRawApiResponseToPayload } from '@vladbasi
 import { chooseResponseErrorHandler, fetchRawApiRequestAsync } from '.';
 import { FetchDataPayloadType, FetchPayloadRequestWithDataOptionsType, FetchRawApiRequestOptionsType } from './types';
 
-export const fetchPayloadRequestWithBodyAsync = <TDataPayload, TErrorPayload>(
+export const fetchWithBodyAsync = <TDataPayload, TErrorPayload>(
     options: FetchPayloadRequestWithDataOptionsType<TDataPayload, TErrorPayload>
 ): Result<FetchDataPayloadType<TDataPayload>> => {
     const rawOptions: FetchRawApiRequestOptionsType = {
