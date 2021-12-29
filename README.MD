@@ -84,7 +84,7 @@ export const RequestPayloadSchema = Joi.object<RequestPayload>({
 5. Call `fetchPayloadRequestWithBodyAsync()` to execute a request:
 
 ```typescript
-fetchPayloadRequestWithBodyAsync({
+fetchWithBodyAsync({
         request: {
             url: 'http://your-backend/api/users/{userId}',
             method: HttpRequestMethods.Post,
