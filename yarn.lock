@@ -242,26 +242,27 @@
   resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-constants/-/strong-api-constants-1.0.0.tgz#9621f0e6d5a7cc7a9cbd3631add280c76b91bdaa"
   integrity sha512-lOhaIXmUQQOr18XCxFt6s0M80nloEQWvgJHdYH4k5IFQmyVaVj0bg8Bxu+Q3c/roPlHqqrCHT5elWJtbXaUnzA==
 
-"@vladbasin/strong-api-mapping@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-mapping/-/strong-api-mapping-1.0.2.tgz#07e42f8dc665f4a6bd45fc597379fc185ec40bad"
-  integrity sha512-W7Zgb6w2Od4tnxw+CAl1hu/hpaAj96EXWRNh4QQ9yN8Cr0OPZ3fAdPimDORWzYnHkLtvER42I7ZnmpjJKbM8Jw==
+"@vladbasin/strong-api-mapping@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-mapping/-/strong-api-mapping-1.0.4.tgz#2431b7abc7dcbbde2c4a22e0deb5e97127b24caa"
+  integrity sha512-0OE/SI1mcLEzoGabFEIIii5Die0dhKaVBQk8OGFr49jscdUrYiPM8FLrHGC/NBOj9vsCJElknIBgXBtFQbE41g==
   dependencies:
     "@vladbasin/strong-api-constants" "^1.0.0"
     "@vladbasin/strong-api-models" "^1.0.1"
     "@vladbasin/ts-types" "^1.0.4"
     lodash "^4.17.21"
 
-"@vladbasin/strong-api-middleware@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-middleware/-/strong-api-middleware-1.0.3.tgz#0eed05e08a3148c1c3b919e53a4fb67045ad4b6a"
-  integrity sha512-mcWK2oLb25FLa0vQpumFnJkdq4m56kfhnGLWqHI9AJhrGkb3WQ6cx6YrQDze4NKVKrIOGvT5+XkxriaWkCknEg==
+"@vladbasin/strong-api-middleware@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-middleware/-/strong-api-middleware-1.0.6.tgz#fb293da942aab0fef06c0f0ab1ce159665d66e12"
+  integrity sha512-lRexgwWPqoGRU/DAsZX4V+vE6ZCmy0MDauKtqNP1bZbZ7pjFGH2Woj5G7UxwZLaJPttCd7nebUzPu8ThzzzOZg==
   dependencies:
     "@vladbasin/strong-api-constants" "^1.0.0"
     "@vladbasin/strong-api-models" "^1.0.1"
     "@vladbasin/ts-result" "^1.1.9"
     "@vladbasin/ts-types" "^1.0.4"
     lodash "^4.17.21"
+    moment "^2.29.1"
 
 "@vladbasin/strong-api-models@^1.0.1":
   version "1.0.1"
@@ -1473,6 +1474,11 @@ minimist@^1.2.0:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
+moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 ms@2.0.0:
   version "2.0.0"

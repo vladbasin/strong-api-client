@@ -1,13 +1,17 @@
 import { Result } from '@vladbasin/ts-result';
 import { Maybe } from '@vladbasin/ts-types';
 import { RawApiResponseType } from '@vladbasin/strong-api-mapping';
-import { ApiResponsePayloadType } from '@vladbasin/strong-api-middleware';
+import { ApiResponsePayloadType, useJsonDatesFormat } from '@vladbasin/strong-api-middleware';
 import { FetchRawApiRequestOptionsType, FetchRawResponseType } from './types';
 import { prepareFetch } from '.';
 
 export const fetchRawApiRequestAsync = <TDataResponsePayload, TErrorResponsePayload>(
     options: FetchRawApiRequestOptionsType
 ): Result<FetchRawResponseType<TDataResponsePayload, TErrorResponsePayload>> => {
+    if (options.json?.parseDates === true) {
+        useJsonDatesFormat(options.json?.datesFormat);
+    }
+
     let statusCode = 0;
 
     const headers: Record<string, Maybe<string>> = {};
