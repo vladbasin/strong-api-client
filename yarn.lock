@@ -242,20 +242,20 @@
   resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-constants/-/strong-api-constants-1.0.0.tgz#9621f0e6d5a7cc7a9cbd3631add280c76b91bdaa"
   integrity sha512-lOhaIXmUQQOr18XCxFt6s0M80nloEQWvgJHdYH4k5IFQmyVaVj0bg8Bxu+Q3c/roPlHqqrCHT5elWJtbXaUnzA==
 
-"@vladbasin/strong-api-mapping@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-mapping/-/strong-api-mapping-1.0.4.tgz#2431b7abc7dcbbde2c4a22e0deb5e97127b24caa"
-  integrity sha512-0OE/SI1mcLEzoGabFEIIii5Die0dhKaVBQk8OGFr49jscdUrYiPM8FLrHGC/NBOj9vsCJElknIBgXBtFQbE41g==
+"@vladbasin/strong-api-mapping@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-mapping/-/strong-api-mapping-1.1.2.tgz#42ea7bf7cccf0a99ef1209609fc7cc803e7d9e90"
+  integrity sha512-idCh8jUqc4PMe9EC5EsUHHQ9iQkAeei2O2hO5S2b7x99pRb2ytjdnef/fa383ku/ArGxqiVuHMedKTDW0ImMsw==
   dependencies:
     "@vladbasin/strong-api-constants" "^1.0.0"
     "@vladbasin/strong-api-models" "^1.0.1"
     "@vladbasin/ts-types" "^1.0.4"
     lodash "^4.17.21"
 
-"@vladbasin/strong-api-middleware@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-middleware/-/strong-api-middleware-1.0.6.tgz#fb293da942aab0fef06c0f0ab1ce159665d66e12"
-  integrity sha512-lRexgwWPqoGRU/DAsZX4V+vE6ZCmy0MDauKtqNP1bZbZ7pjFGH2Woj5G7UxwZLaJPttCd7nebUzPu8ThzzzOZg==
+"@vladbasin/strong-api-middleware@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vladbasin/strong-api-middleware/-/strong-api-middleware-1.1.0.tgz#ebcdd87db366542664e092132443515b26d8f709"
+  integrity sha512-HT9QhV8S9WEjzCBGS0C7JW0QuP25vSNfgCwfTYHPiOeqZneqJNyLrmDbO/RKnbzcBNmgt9K+v3/h+J3w0QjREw==
   dependencies:
     "@vladbasin/strong-api-constants" "^1.0.0"
     "@vladbasin/strong-api-models" "^1.0.1"
