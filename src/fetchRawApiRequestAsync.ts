@@ -22,7 +22,7 @@ export const fetchRawApiRequestAsync = <TDataResponsePayload, TErrorResponsePayl
             statusCode = response.status;
 
             response.headers.forEach((value, name) => {
-                const values = value.split(',');
+                const values = value.split(',').map(t => t.trim());
 
                 if (values.length > 1) {
                     multiValueHeaders[name] = values;

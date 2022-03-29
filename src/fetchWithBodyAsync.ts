@@ -16,7 +16,7 @@ export const fetchWithBodyAsync = <TDataPayload, TErrorPayload>(
     };
 
     return fetchRawApiRequestAsync(rawOptions).onSuccess(response => {
-        return !isStatusCodeSuccess(response.statusCode) || isNil(response.payload) || isNil(response.payload?.data)
+        return !isStatusCodeSuccess(response.statusCode)
             ? Result.FailWithError(chooseResponseErrorHandler(options.response.error, response))
             : Result.Ok<FetchDataPayloadType<TDataPayload>>({
                   statusCode: response.statusCode,
