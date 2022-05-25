@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/strong-api-client",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Strongly typed API client",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
